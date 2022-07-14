@@ -38,6 +38,8 @@ namespace Food_Zone.Models
 
         public DbSet<Register> Register { get; set; }
 
+        public DbSet<contact> contact { get; set; }
+
         
     }
 
